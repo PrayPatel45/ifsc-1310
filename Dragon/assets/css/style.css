@@ -1,0 +1,97 @@
+body {
+  font-family: Arial;
+  padding: 0px;
+  margin:0px;
+  background: #f1f1f1;
+}
+.nav{
+  background-color: #ffffff;
+  color:#000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 0 0;
+}
+.nav > li{
+  display: inline-block;
+  padding:0 25px 0 25px;
+  font-size: 12px;
+}
+.nav >li > a{
+  text-decoration:none;
+  color: #000000;
+}
+.nav >li > a:hover{
+  color: #c1c1c1;
+}
+.logo{
+  color:#000000;
+  float:left;
+  padding-left:25px;
+  font-size:16px;
+  font-weight:bold;
+}
+.logo > a {
+  text-decoration:none;
+  color:#000000;
+}
+.banner{
+  text-align:center;
+}
+.banner_img{
+    width:100%;
+    
+    height:70%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    
+}
+.container{
+  background: right/contain content-box border-box no-repeat white;
+  font-size:18px;
+}
+
+.img{
+  max-width:100%;
+  height:auto;
+  position:relative;
+  
+}
+.cargo-post{
+  text-align:center;
+  margin:.10rem;
+  padding:.5rem;
+  font-size:18px;
+  border:5px #a6a6a6;
+  border-style:groove;
+  
+}
+.crew-post{
+  text-align:center;
+  margin:.10rem;
+  padding:.5rem;
+  font-size:18px;
+  border:5px #a6a6a6;
+  border-style:groove;
+}
+.dragonlab-post{
+  
+  text-align:center;
+  margin:.10rem;
+  padding:.5rem;
+  font-size:18px;
+  border:5px #a6a6a6;
+  border-style:groove;
+  
+}
+.articles{
+  display: flex;
+}
+.hero{
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 4px;
+    
+}
